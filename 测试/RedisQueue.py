@@ -3,7 +3,7 @@ import logging
 from typing import (
     Generic, Iterable, List, Optional, Callable, TypeVar, Iterator, Any
 )
-import redis
+from redis import redis
 
 T = TypeVar("T")
 
